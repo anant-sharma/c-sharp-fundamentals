@@ -9,6 +9,8 @@ namespace CSharpFundamentals
             Console.WriteLine("Hello World!");
 
             ListDemo.Init();
+
+            ListExercise.Init();
         }
     }
 }
