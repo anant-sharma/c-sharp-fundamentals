@@ -8,12 +8,15 @@ namespace CSharpFundamentals
         {
             Console.WriteLine("Hello World!");
 
-            ListDemo.Init();
+            //ListDemo.Init();
 
-            PersonInit.Do();
+            //PersonInit.Do();
 
-            // ListExercise.Init();
-            ListExercise.UniqueNumberList();
+            //ListExercise.Init();
+            //ListExercise.UniqueNumberList();
+
+            //FileOperation.Init();
+            FileOperation.CountWords();
         }
     }
 }
