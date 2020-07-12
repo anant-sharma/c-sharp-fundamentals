@@ -10,7 +10,8 @@ namespace CSharpFundamentals
 
             ListDemo.Init();
 
-            ListExercise.Init();
+            // ListExercise.Init();
+            ListExercise.UniqueNumberList();
         }
     }
 }

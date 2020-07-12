@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace CSharpFundamentals
 {
@@ -40,6 +41,41 @@ namespace CSharpFundamentals
             }
 
             Console.WriteLine(uString + " like your post");
+        }
+
+        public static void UniqueNumberList()
+        {
+            int[] arr = new int[5];
+
+            int i = 0;
+
+            while(i<5)
+            {
+                Console.WriteLine("Please Enter a Number:");
+                string nStr = Console.ReadLine();
+
+                int n;
+                bool isParsable = Int32.TryParse(nStr, out n);
+
+                if (!isParsable)
+                {
+                    Console.WriteLine("Invalid Number Entered");
+                    continue;
+                }
+
+                if (Array.IndexOf(arr, n) != -1)
+                {
+                    Console.WriteLine("Number already exists. Please retry.");
+                    continue;
+                }
+
+                arr[i] = n;
+                i++;
+            }
+
+            Array.Sort(arr);
+
+            Console.WriteLine(string.Join(",", arr));
         }
     }
 }
