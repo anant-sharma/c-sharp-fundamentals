@@ -16,7 +16,13 @@ namespace CSharpFundamentals
             //ListExercise.UniqueNumberList();
 
             //FileOperation.Init();
-            FileOperation.CountWords();
+            //FileOperation.CountWords();
+
+            var cls = new Classes
+            {
+                Id = 10,
+                Name = "Some Random Class"
+            };
         }
     }
 }
