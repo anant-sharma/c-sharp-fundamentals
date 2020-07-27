@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverriding", "MethodO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFundamentals", "AbstractFundamentals\AbstractFundamentals.csproj", "{9DFAC693-FC58-4EDD-83E3-2D96492D11DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingManagement", "ShippingManagement\ShippingManagement.csproj", "{12D1D97D-7D95-4B63-B6B0-5B94BD3A3423}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingManagementTests", "ShippingManagementTests\ShippingManagementTests.csproj", "{B33F9F97-81E1-44B5-B25E-2E930F7796A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{9DFAC693-FC58-4EDD-83E3-2D96492D11DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DFAC693-FC58-4EDD-83E3-2D96492D11DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DFAC693-FC58-4EDD-83E3-2D96492D11DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12D1D97D-7D95-4B63-B6B0-5B94BD3A3423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D1D97D-7D95-4B63-B6B0-5B94BD3A3423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D1D97D-7D95-4B63-B6B0-5B94BD3A3423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D1D97D-7D95-4B63-B6B0-5B94BD3A3423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B33F9F97-81E1-44B5-B25E-2E930F7796A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B33F9F97-81E1-44B5-B25E-2E930F7796A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B33F9F97-81E1-44B5-B25E-2E930F7796A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B33F9F97-81E1-44B5-B25E-2E930F7796A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
